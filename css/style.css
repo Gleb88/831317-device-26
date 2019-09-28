@@ -1,0 +1,246 @@
+/* Шрифты -----------------------------------------------------------------------*/
+
+@font-face{
+    font-family: Gilroy;
+    src: url('../fonts/Gilroylight.ttf');
+}
+
+@font-face{
+    font-family: Gilroybold;
+    src: url('../fonts/Gilroyextrabold.ttf');
+}
+
+@font-face{
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face{
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+/* глобальные стили*/
+
+body {
+    margin: 0;
+    padding: 0;
+  
+    font-family: "Gilroybold ", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bolder;
+    color: #000000;
+ 
+    
+    background-color: #ffffff; 
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header ul,
+.footer ul,
+.breadcrumbs,
+.breadcrumbs__link,
+.filter ul,
+.features ul{
+      list-style: none;
+      text-decoration: none;
+}
+
+.btn{
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+  
+
+  /* основные стили -----------------------------------------------------------------------*/
+  /* header */
+
+.header{
+    background-color: #f7e296;
+}  
+
+.search input{
+    background-color: inherit;
+    border: none;
+
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    font-weight: 30px;
+}
+
+.login__link{
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    font-weight: 30px;
+    color: #000;
+}
+
+.basket-list a{
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    font-weight: 30px;
+    color: #000;
+}
+
+.header-nav a{
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 3px;
+}
+
+
+/* main -----------------------------------------------------------------------*/
+
+.about-us__title{
+    font-size: 47px;
+    line-height: 48px;
+}
+
+.about-us__text{
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    font-weight: 30px;
+    color: #464646;
+}
+.delivery{
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.contacts__title{
+    font-size: 47px;
+    line-height: 48px;
+}
+
+.contacts__text{
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #464646;
+}
+
+.catalog-title{
+    font-size: 47px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+
+.breadcrumbs__link{
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    font-weight: 24px;
+    color: #7e7e7e;
+}
+
+.filter{
+    background-color: #eeeeee;
+}
+
+.filter-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    background-color: #dcdcdc;
+}
+
+.color-title{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.filter ul{
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    font-weight: 40px;
+    color: #000000;
+}
+
+.features__title{
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.price{
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+/* footer ----------------------------------------------------------------------- */
+
+.footer{
+    background-color: #464646;
+    
+}
+
+.footer__login__link{
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    font-weight: 30px;
+    color: #ffffff;
+}
+
+.footer__basket-list a{
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    font-weight: 30px;
+    color: #ffffff;
+}
+
+.address{
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #ffffff;
+    font-style: normal;
+}
+
+.footer-nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.tel{
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #ffffff;
+    font-style: normal;
+}
+
+/* модальные -----------------------------------------------------------------------  */
+
+
