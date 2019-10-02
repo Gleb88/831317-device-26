@@ -2,22 +2,26 @@
 
 @font-face{
     font-family: Gilroy;
-    src: url('../fonts/Gilroylight.ttf');
+    src: url('../fonts/Gilroylight.ttf') format('truetype');
+    font-weight: normal;
 }
 
 @font-face{
-    font-family: Gilroybold;
-    src: url('../fonts/Gilroyextrabold.ttf');
+    font-family: Gilroy;
+    src: url('../fonts/Gilroyextrabold.ttf') format('truetype');
+    font-weight: bolder;
 }
 
 @font-face{
     font-family: OpenSans;
-    src: url('../fonts/OpenSans-Light.ttf');
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight: lighter;
 }
 
 @font-face{
-    font-family: OpenSans-Regular;
-    src: url('../fonts/OpenSans-Regular.ttf');
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
 }
 
 /* глобальные стили*/
@@ -30,12 +34,17 @@ body {
     font-size: 18px;
     line-height: 24px;
     font-weight: bolder;
-    color: #000000;
- 
-    
-    background-color: #ffffff; 
-    background-position: top center;
-    background-repeat: no-repeat;
+    color: #000;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
 }
 
 a {
@@ -85,14 +94,14 @@ a {
     font-family: OpenSans, Arial, sans-serif;
     font-weight: lighter;
     font-size: 15px;
-    font-weight: 30px;
+    line-height: 30px;
 }
 
 .login__link{
     font-family: OpenSans, Arial, sans-serif;
     font-weight: lighter;
     font-size: 15px;
-    font-weight: 30px;
+    line-height: 30px;
     color: #000;
 }
 
@@ -100,7 +109,7 @@ a {
     font-family: OpenSans, Arial, sans-serif;
     font-weight: lighter;
     font-size: 15px;
-    font-weight: 30px;
+    line-height: 30px;
     color: #000;
 }
 
@@ -122,7 +131,7 @@ a {
     font-family: OpenSans, Arial, sans-serif;
     font-weight: normal;
     font-size: 15px;
-    font-weight: 30px;
+    line-height: 30px;
     color: #464646;
 }
 .delivery{
@@ -154,7 +163,7 @@ a {
     font-family: OpenSans, Arial, sans-serif;
     font-weight: lighter;
     font-size: 14px;
-    font-weight: 24px;
+    line-height: 24px;
     color: #7e7e7e;
 }
 
@@ -179,8 +188,8 @@ a {
     font-family: OpenSans, Arial, sans-serif;
     font-weight: lighter;
     font-size: 14px;
-    font-weight: 40px;
-    color: #000000;
+    line-height: 40px;
+    color: #000;
 }
 
 .features__title{
@@ -207,29 +216,29 @@ a {
     font-family: OpenSans, Arial, sans-serif;
     font-weight: lighter;
     font-size: 15px;
-    font-weight: 30px;
-    color: #ffffff;
+    line-height: 30px;
+    color: #ffff;
 }
 
 .footer__basket-list a{
     font-family: OpenSans, Arial, sans-serif;
     font-weight: lighter;
     font-size: 15px;
-    font-weight: 30px;
-    color: #ffffff;
+    line-height: 30px;
+    color: #fff;
 }
 
 .address{
     font-family: OpenSans, Arial, sans-serif;
     font-weight: lighter;
     font-size: 15px;
-    color: #ffffff;
+    color: #fff;
     font-style: normal;
 }
 
 .footer-nav a{
     text-transform: uppercase;
-    color: #ffffff;
+    color: #fff;
     letter-spacing: 3px;
 }
 
@@ -237,7 +246,7 @@ a {
     font-family: OpenSans, Arial, sans-serif;
     font-weight: lighter;
     font-size: 15px;
-    color: #ffffff;
+    color: #fff;
     font-style: normal;
 }
 
