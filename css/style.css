@@ -13,7 +13,7 @@
     src: url('../fonts/Gilroyextrabold.ttf') format('truetype'),
     url('Gilroy-ExtraBold.woff2') format('woff2'),
     url('Gilroy-ExtraBold.woff') format('woff');
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 @font-face{
@@ -21,7 +21,7 @@
     src: url('../fonts/OpenSans-Light.ttf') format('truetype'),
          url('OpenSans-Light.woff2') format('woff2'),
          url('OpenSans-Light.woff') format('woff');
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 @font-face{
@@ -239,7 +239,7 @@ fieldset{
     cursor: pointer;
 
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 15px;
     line-height: 30px;
 
@@ -326,7 +326,7 @@ fieldset{
 
 .login__link{
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 15px;
     line-height: 30px;
     color: #000;
@@ -334,7 +334,7 @@ fieldset{
 
 .basket-list a{
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 15px;
     line-height: 30px;
     color: #000;
@@ -624,7 +624,7 @@ fieldset{
     line-height: 30px;
 
     font-family: OpenSans;
-    font-weight: lighter;
+    font-weight: 100;
 
     margin-bottom: 55px;
 }
@@ -757,7 +757,7 @@ input#slide3:checked ~ ul .slider-indicator3{
     font-size: 13px;
     line-height: 20px;
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     color: #464646;
     
 }
@@ -1027,7 +1027,7 @@ input#slide3:checked ~ ul .slider-indicator3{
     line-height: 30px;
     letter-spacing: 0.15px;
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
 
 }
 
@@ -1280,7 +1280,7 @@ input#slide3:checked ~ ul .slider-indicator3{
 
 .breadcrumbs__link{
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 14px;
     line-height: 24px;
     color: #d1d1d1;
@@ -1403,7 +1403,7 @@ input#slide3:checked ~ ul .slider-indicator3{
     bottom: -25px;
     width: 70px;
 
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 14px;
     line-height: 24px;
 
@@ -1417,7 +1417,7 @@ input#slide3:checked ~ ul .slider-indicator3{
     left: -20px;
     width: 70px;
 
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 14px;
     line-height: 24px;
 
@@ -1503,7 +1503,7 @@ input#slide3:checked ~ ul .slider-indicator3{
 
 .color-list{
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 14px;
     line-height: 40px;
     color: #000;
@@ -1570,7 +1570,7 @@ input#slide3:checked ~ ul .slider-indicator3{
     font-size: 14px;
     line-height: 40px;
     letter-spacing: 0.14px;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 .radio-indicator{
@@ -1697,7 +1697,7 @@ input#slide3:checked ~ ul .slider-indicator3{
     font-size: 13px;
     line-height: 36px;
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     border: none;
     background: none;
     cursor: pointer;
@@ -1990,7 +1990,7 @@ input#slide3:checked ~ ul .slider-indicator3{
 
 .footer__login__link {
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 15px;
     line-height: 30px;
     letter-spacing: 0.15px;
@@ -2013,7 +2013,7 @@ input#slide3:checked ~ ul .slider-indicator3{
 
 .footer__basket-list a{
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 15px;
     line-height: 30px;
     color: #fff;
@@ -2021,7 +2021,7 @@ input#slide3:checked ~ ul .slider-indicator3{
 
 .address{
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 15px;
     color: #fff;
     font-style: normal;
@@ -2086,7 +2086,7 @@ input#slide3:checked ~ ul .slider-indicator3{
 
 .tel{
     font-family: OpenSans, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 15px;
     color: #fff;
     font-style: normal;
