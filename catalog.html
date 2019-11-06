@@ -4,25 +4,25 @@
     <meta charset="utf-8">
     <title>HTML Academy: Каталог</title>
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/minstyle.css" rel="stylesheet">
   </head>
   <body>
     <header class="header container">
       <a href="index.html" class="logo-link">
         <img src="img/logo.png" width="163" height="35" alt="Логотип магазина">
       </a>
-      <div class="heder-string">
+      <div class="header-string">
         <form class="search" aria-label="Поиск по сайту">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-            <path d="M15.7,14.3l-3.104-3.104C13.473,10.023,14,8.576,14,7c0-3.866-3.134-7-7-7S0,3.134,0,7s3.134,7,7,7
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+          <path d="M15.7,14.3l-3.104-3.104C13.473,10.023,14,8.576,14,7c0-3.866-3.134-7-7-7S0,3.134,0,7s3.134,7,7,7
             c1.576,0,3.023-0.527,4.193-1.404L14.3,15.7c0.185,0.184,0.38,0.3,0.7,0.3c0.553,0,1-0.447,1-1C16,14.781,15.945,14.546,15.7,14.3z
-              M2,7c0-2.762,2.238-5,5-5s5,2.238,5,5s-2.238,5-5,5S2,9.762,2,7z"/>
-            </svg>
-            <input class="search__input" type="text" placeholder="Поиск по сайту"> 
-            <div class="search__send">
-              <button class="search__send__btn">Найти</button>
-            </div>
+            M2,7c0-2.762,2.238-5,5-5s5,2.238,5,5s-2.238,5-5,5S2,9.762,2,7z"/>
+          </svg>
+          <input class="search__input" type="text" placeholder="Поиск по сайту"> 
+          <div class="search__send">
+            <button class="search__send__btn">Найти</button>
+          </div>
         </form>
         <ul class="login">
           <li>
@@ -188,7 +188,7 @@
                 </li>
               </ul>
             </fieldset>
-            <button class="filter-btn btn">показать</button>
+            <button type="submit" class="filter-btn btn">показать</button>
           </div>
           <div class="features">
             <h2 class="visually-hidden">Каталог товаров</h2>
@@ -201,12 +201,12 @@
                 <li class="sort__list__item"><button>По типу</button></li>
                 <li class="sort__list__item"><button>По популярности</button></li>
               </ul>
-              <button class="sort__btn sort__btn__up"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              <button class="sort__btn sort__btn__up" aria-label="сортировка по возрастанию"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
              <polygon fill="#d3d2d2" points="5.5,0 0,10 11,10 "/>
              </svg>
              </button>
-              <button class="sort__btn sort__btn__down"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              <button class="sort__btn sort__btn__down" aria-label="сортировка по убыванию"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
              <polyline fill="#d3d2d2" points="5.5,10 0,0 11,0 "/>
              </svg></button>
@@ -218,7 +218,7 @@
                   <button class="features__image__add">Добавить к сравнению</button>
                 </div>
                 <div class="features__desc">
-                  <h3 class="features__title">Любительская селфи-палка</h3>
+                  <a href="#" class="features__title">Любительская селфи-палка</a>
                   <span class="price">500 руб.</span>
                 </div>
               </li>
@@ -228,7 +228,7 @@
                   <button class="features__image__add">Добавить к сравнению</button>
                 </div>
                 <div class="features__desc">
-                  <h3 class="features__title">Профессиональная<br> селфи-палка</h3>
+                  <a href="#" class="features__title">Профессиональная<br> селфи-палка</a>
                   <span class="price">1500 руб.</span>
                 </div>
               </li>
@@ -238,7 +238,7 @@
                   <button class="features__image__add">Добавить к сравнению</button>
                 </div>
                 <div class="features__desc">
-                  <h3 class="features__title">Непотопляемая селфи-палка</h3>
+                  <a href="#" class="features__title">Непотопляемая селфи-палка</a>
                   <span class="price">2500 руб.</span>
                 </div>
               </li>
@@ -248,7 +248,7 @@
                   <button class="features__image__add">Добавить к сравнению</button>
                 </div>
                 <div class="features__desc">
-                  <h3 class="features__title">Селфи-палка «Следуй за мной»</h3>
+                  <a href="#" class="features__title">Селфи-палка «Следуй за мной»</a>
                   <span class="price">4900 руб.</span>
                 </div>
               </li>
@@ -256,9 +256,9 @@
             <div class="features-control">
               <a href="#" class="control__link control__link__before">назад</a>
               <ul class="control__list">
-                <li><a href="#" class="control__list__checked">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
+                <li><a href="#" class="control__list__checked control__list__link">1</a></li>
+                <li><a href="#" class="control__list__link">2</a></li>
+                <li><a href="#" class="control__list__link">3</a></li>
               </ul>
               <a href="#" class="control__link control__link__after">вперед</a>
               <div class="control__link__before-hover"></div>
@@ -285,7 +285,7 @@
           </nav>
           <ul class="socials">
             <li class="fb">
-              <a href="#">
+              <a href="#" class="socials__link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                   <path fill="#7e7e7e" d="M16 0C7.164 0 0 7.163 0 16s7.164 16 16 16c8.837 0 16-7.164 16-16S24.837 0 16 0zm4.062 9.455h-3.021v3.444h3.021v3.445h-3.021v8.61H14.02v-8.61H11v-3.445h3.021V9.455c0-1.902 1.353-3.445 3.021-3.445h3.021v3.445z"/>
                 </svg>
@@ -293,7 +293,7 @@
               </a>
             </li>
             <li class="inst">
-              <a href="#">
+              <a href="#" class="socials__link">
                   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                   width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
                 <g>
@@ -312,7 +312,7 @@
               </a>
             </li>
             <li class="twit">
-              <a href="#">
+              <a href="#" class="socials__link">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
                     height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
                   <g>

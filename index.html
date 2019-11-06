@@ -4,24 +4,24 @@
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/minstyle.css" rel="stylesheet">
   </head>
   <body>
     <header class="header container">
       <a href="#" class="logo-link" aria-label="Логотип магазина Ссыдка на главную странмцу">
       </a>
-      <div class="heder-string">
+      <div class="header-string">
         <form class="search" aria-label="Поиск по сайту">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-            <path d="M15.7,14.3l-3.104-3.104C13.473,10.023,14,8.576,14,7c0-3.866-3.134-7-7-7S0,3.134,0,7s3.134,7,7,7
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+          <path d="M15.7,14.3l-3.104-3.104C13.473,10.023,14,8.576,14,7c0-3.866-3.134-7-7-7S0,3.134,0,7s3.134,7,7,7
             c1.576,0,3.023-0.527,4.193-1.404L14.3,15.7c0.185,0.184,0.38,0.3,0.7,0.3c0.553,0,1-0.447,1-1C16,14.781,15.945,14.546,15.7,14.3z
-              M2,7c0-2.762,2.238-5,5-5s5,2.238,5,5s-2.238,5-5,5S2,9.762,2,7z"/>
-            </svg>
-            <input class="search__input" type="text" placeholder="Поиск по сайту"> 
-            <div class="search__send">
-              <button class="search__send__btn">Найти</button>
-            </div>
+            M2,7c0-2.762,2.238-5,5-5s5,2.238,5,5s-2.238,5-5,5S2,9.762,2,7z"/>
+          </svg>
+          <input class="search__input" type="text" placeholder="Поиск по сайту"> 
+          <div class="search__send">
+            <button type="submit" class="search__send__btn">Найти</button>
+          </div>
         </form>
         <ul class="login">
           <li>
@@ -68,7 +68,7 @@
       </div>
       <nav class="header-nav index-nav">
         <ul class="header-catalog">
-          <li class="dropdown"><button class="header-catalog-btn">каталог товаров</button>
+          <li class="dropdown"><a href="catalog.html" class="header-catalog-btn">каталог товаров</a>
             <div class="header-index-wrapper">
               <ul class="header-catalog__list">
                 <li>
@@ -107,17 +107,17 @@
         <ul class="slider-list">
             <li class="slider-list__item">
               <label for="slide1">
-                <span class="slider-indicator slider-indicator1"></span>
+                <span class="slider-indicator slider-indicator1" tabindex="0"></span>
               </label>
           </li>
             <li class="slider-list__item">
               <label for="slide2">
-                  <span class="slider-indicator slider-indicator2"></span>
+                  <span class="slider-indicator slider-indicator2" tabindex="0"></span>
                 </label>
             </li>
             <li class="slider-list__item">
               <label for="slide3">
-                  <span class="slider-indicator slider-indicator3"></span>
+                  <span class="slider-indicator slider-indicator3" tabindex="0"></span>
                 </label>
             </li>
         </ul>
@@ -128,7 +128,7 @@
             </div>
             <div class="slider-right">
               <p class="slider-desc desc1">
-                Делай селфи,<br> как Бен Стиллер!
+                Делай селфи, как Бен Стиллер!
               </p>
               <p class="slider-text">
                 Самая длинная палка для селфи доступна в нашем магазине.
@@ -161,11 +161,11 @@
             </div>
             <div class="slider-right">
               <p class="slider-desc desc2">
-                  Худеем<br>
+                  Худеем
                   правильно!
               </p>
               <p class="slider-text">
-                  Мотивирующие фитнес-браслеты помогут найти в себе силы<br> 
+                  Мотивирующие фитнес-браслеты помогут найти в себе силы
                   не пропускать занятия и соблюдать диету.
               </p>
               <div class="details-string">
@@ -191,7 +191,7 @@
                   жалит как пчела!
               </p>
               <p class="slider-text">
-                  Этот обычный, на первый взгляд, квадрокоптер оснащен <br>
+                  Этот обычный, на первый взгляд, квадрокоптер оснащен 
                   мощным лазером, замаскированным под стандартную камеру.                  
               </p>
               <div class="details-string">
@@ -216,33 +216,33 @@
         <ul class="products__list">
           <li class="products__item">
             <a href="#" class="products__img products__img1">
-              <span>Виртуальная реальность</span>
+              <span class="products__item__span">Виртуальная реальность</span>
             </a>
           </li>
           <li class="products__item">
             <a href="#" class="products__img products__img2">
-              <span>Моноподы<br>
+              <span class="products__item__span">Моноподы
               для селфи</span>
             </a>
           </li>
           <li class="products__item">
             <a href="#" class="products__img products__img3">
-              <span>Экшн-камеры</span>
+              <span class="products__item__span">Экшн-камеры</span>
             </a>
           </li>
           <li class="products__item">
             <a href="#" class="products__img products__img4">
-              <span>Фитнес-браслеты</span>
+              <span class="products__item__span">Фитнес-браслеты</span>
             </a>
           </li>
           <li class="products__item">
             <a href="#" class="products__img products__img5">
-             <span>Умные часы</span>
+             <span class="products__item__span">Умные часы</span>
             </a>
           </li>
           <li class="products__item">
             <a href="#" class="products__img products__img6">
-             <span>Квадрокоптеры</span>
+             <span class="products__item__span">Квадрокоптеры</span>
             </a>
           </li>
         </ul>
@@ -253,9 +253,9 @@
             <input type="radio" id="delivery" name="services-radio" class="visually-hidden" checked>
             <input type="radio" id="warranty" name="services-radio" class="visually-hidden">
             <input type="radio" id="credit"   name="services-radio" class="visually-hidden">
-            <label for="delivery" class="services__item services__item-delivery">доставка</label>
-            <label for="warranty" class="services__item services__item-warranty">гарантии</label>
-            <label for="credit" class="services__item services__item-credit">кредит</label>
+            <label for="delivery" class="services__item services__item-delivery" tabindex="0">доставка</label>
+            <label for="warranty" class="services__item services__item-warranty" tabindex="0">гарантии</label>
+            <label for="credit" class="services__item services__item-credit" tabindex="0">кредит</label>
             <div class="services-desc services-desc-delivery">
               <h2 class="services-desc__title">Доставка</h2>
               <p class="services-desc__text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду 
@@ -276,13 +276,17 @@
       <section class="partners container">
         <h2 class="visually-hidden">Партнеры</h2>
         <ul class="partners-list">
-          <li class="partners-item dgi">
+          <li>
+            <a href="https://www.dji.com/ru" target="_blank" class="partners-item dgi"></a>
           </li>
-          <li class="partners-item sp">
+          <li>
+           <a href="http://www.sp-gadgets.com/en" target="_blank" class="partners-item sp"></a>
           </li>
-          <li class="partners-item gopro">
+          <li>
+            <a href="https://gopro.ru/" target="_blank" class="partners-item gopro"></a>
           </li>
-          <li class="partners-item vive">
+          <li>
+            <a href="https://www.vive.com/ru/" target="_blank" class="partners-item vive"></a>
           </li>
         </ul>
       </section>
@@ -307,10 +311,10 @@
             <p class="about-us__text">
               Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.
             </p>
-            <button class="map-btn">
+            <a href="#" class="map-btn">
               <img src="img/map.png" width="560" height="222" alt="адрес магазина, г.Москва, ул.Строителей, 15">
-            </button>
-            <button class="btn write-us-btn">напишите нам</button> 
+            </a>
+            <a class="btn write-us-btn">напишите нам</a> 
           </div>
       </section>      
     </main>
@@ -331,7 +335,7 @@
           </nav>
           <ul class="socials">
             <li class="fb">
-              <a href="#">
+              <a href="#" class="socials__link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
                   <path fill="#7e7e7e" d="M16 0C7.164 0 0 7.163 0 16s7.164 16 16 16c8.837 0 16-7.164 16-16S24.837 0 16 0zm4.062 9.455h-3.021v3.444h3.021v3.445h-3.021v8.61H14.02v-8.61H11v-3.445h3.021V9.455c0-1.902 1.353-3.445 3.021-3.445h3.021v3.445z"/>
                 </svg>
@@ -339,7 +343,7 @@
               </a>
             </li>
             <li class="inst">
-              <a href="#">
+              <a href="#" class="socials__link">
                   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                   width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
                <g>
@@ -358,7 +362,7 @@
               </a>
             </li>
             <li class="twit">
-              <a href="#">
+              <a href="#" class="socials__link">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
                     height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
                   <g>
@@ -433,19 +437,19 @@
       <form action="https://echo.htmlacademy.ru" method="POST" class="feedback__form">
         <div class="flex">
           <div>
-            <p class="feedback-decs">Ваше имя:</p>
-            <input class="feedback-input feedback-input-name" type="text" placeholder="Имя Фамилия">
+            <p class="feedback-decs"><label for="name-surname">Ваше имя:</label></p>
+            <input class="feedback-input feedback-input-name" id="name-surname" type="text" placeholder="Имя Фамилия">
           </div>
           <div>
-              <p class="feedback-decs">Ваш e-mail:</p>
-            <input class="feedback-input feedback-input-email" type="email" placeholder="email@example.com">
+            <p class="feedback-decs"><label for="youre-email">Ваш e-mail:</label></p>
+            <input class="feedback-input feedback-input-email" id="youre-email" type="email" placeholder="email@example.com">
           </div>
         </div>
         <div>
-            <p class="feedback-decs">Текст письма</p>
-          <textarea class="feedback-textarea" placeholder="В свободной форме"></textarea>
+            <p class="feedback-decs"><label for="letter-text">Текст письма</label></p>
+          <textarea class="feedback-textarea" id="letter-text" placeholder="В свободной форме"></textarea>
         </div>
-        <button class="btn">отправить</button>
+        <button type="submit" class="btn">отправить</button>
         <button class="feedback-close"></button>
       </form>
     </section>
@@ -454,7 +458,7 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1571082619980!5m2!1sru!2sru" width="960" height="560" style="border:0;" allowfullscreen=""></iframe>
       <button class="map-close"></button>
     </section>
-    <script src="js/WriteUs.js"></script>
-    <script src="js/map.js"></script>
+    <script src="js/minwriteus.js"></script>
+    <script src="js/minmap.js"></script>
   </body>
 </html>
